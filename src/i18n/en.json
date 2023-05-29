@@ -2,7 +2,7 @@
   "translation": {
     "hi": "Welcome! I'm",
     "intro": "hello! Thank you for visiting my website!<br/>I am a full-stack developer and currently working as a front-end developer.<br/>I became a developer because I love creation & design & new things🤩<br/>Hobbies and specialties is a foreign language! I'm interested in foreign cultures.<br/>I'm also interested in the visual aspect, so I'm trying to do 3D modeling as a hobby.<br/>I've created a React UI library that's convenient for markup. Or, please leave an e-mail.",
-    "outro": "This website is made by Mi-library.",
+    "outro": "This website is made with Mi library.",
     "contact": {
       "name": "name",
       "subject": "subject",
@@ -45,14 +45,26 @@
       {
         "category": "frontend",
         "name": "Forceteller",
-        "content": "App - Forceteller(English version)",
+        "content": "App - Forceteller",
         "tags": ["React","ionic"]
       },
       {
         "category": "frontend, backend",
-        "name": "Forceteller Event",
+        "name": "Tiving MBTI test",
         "content": "Event pages",
         "tags": ["Vue","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Fortune Card Event",
+        "content": "Event pages",
+        "tags": ["Vue","JAVA"]
+      },
+      {
+        "category": "frontend",
+        "name": "Interactive website",
+        "content": "Introduction website",
+        "tags": ["Vue"]
       },
       {
         "category": "frontend, backend",
@@ -69,13 +81,13 @@
       {
         "category": "frontend, backend",
         "name": "PCT",
-        "content": "Business website",
+        "content": "Survey website",
         "tags": ["JSP","Spring","JAVA"]
       },
       {
         "category": "frontend, backend",
         "name": "PCT",
-        "content": "Survey website",
+        "content": "Business website",
         "tags": ["JSP","Spring","JAVA"]
       }
     ]

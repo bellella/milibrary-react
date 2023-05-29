@@ -52,7 +52,7 @@ const ContatctMe: React.FC = () => {
               <Input set="full" {...register('subject', { required: true })} required />
               <Font padding={[4, 0, 1]}>{t('contact.message')}</Font>
               <Textarea name="message" {...register('message', { required: true })} required />
-              <Button set="secondary" mt={10} width="50%">{t('send')}💕</Button>
+              <Button set="accent" mt={10} width="50%">{t('send')}💕</Button>
             </form>
           </Div>
         </Grid>

@@ -3,9 +3,12 @@ import React, { Children } from 'react';
 import { Container } from './mis/Container';
 import { Link, NavLink } from 'react-router-dom';
 import useThemePicker from 'hooks/useThemePicker';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
   const { themeNames, changeTheme } = useThemePicker();
+  const { t } = useTranslation();
+
   return (
     <Div background="secondary">
       <Container padding={[20, 0]}>
@@ -30,12 +33,12 @@ const Footer: React.FC = () => {
           <div>
             <Font set="p1" mb={10} >SNS</Font>
             <FooterMenu target="_black" to="https://instagram.com/minaacoco?igshid=OGQ5ZDc2ODk2ZA==">Instagram<Span set="tooltip,tooltipLeft" ml={4}>Follow Me!</Span></FooterMenu>
-            <FooterMenu target="_black" to="">Facebook</FooterMenu>
-            <FooterMenu target="_black" to="">Git hub</FooterMenu>
+            <FooterMenu target="_black" to="https://github.com/bellella">Github</FooterMenu>
+            <FooterMenu target="_black" to="https://www.linkedin.com/in/%EB%AF%B8%EB%82%98-%EC%B5%9C-a04818180/">LinkedIn</FooterMenu>
           </div>
         </Grid>
         <Div padding={[30, 0, 5]}>
-          <Font color="onSecondary" set="p3" textAlign="center" fontWeight={700}>This is all made by Mina Choi</Font>
+          <Font color="onSecondary" set="p3" textAlign="center" fontWeight={700}>{t('outro')}</Font>
         </Div>
       </Container>
     </Div>

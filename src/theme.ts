@@ -28,12 +28,6 @@ export const defaultTheme: Theme = {
         border-radius: 6px;
         transition: .5s all;
         cursor: pointer;
-        &::before {
-
-        }
-        &:hover::before {
-
-        }
       `,
       primary: `
       background: ${color.onPrimary};
@@ -198,6 +192,9 @@ line-height: 1.5;
       padding: .7rem 1rem;
       font-size: 1.2rem;
       color: ${color.onInput};
+      &:focus {
+        outline: 1px solid ${color.accent};
+      }
       `,
       full: `
         display: block;
@@ -213,6 +210,9 @@ line-height: 1.5;
       font-size: 1.2rem;
       color: ${color.onInput};
       resize: none;
+      &:focus {
+        outline: 1px solid ${color.accent};
+      }
       `,
       full: `
         display: block;
@@ -232,8 +232,8 @@ export const themes: { [key: string]: Theme } = {
       secondary: '#E07F8C',
       onSecondary: '#fff',
       surface: '#fff',
-      onSurface: '#E07F8C',
-      accent: '#d42757',
+      onSurface: '#03045E',
+      accent: '#de4b74',
       onAccent: '#fff',
       input: '#ebebeb',
       onInput: '#191919'

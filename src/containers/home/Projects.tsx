@@ -56,10 +56,10 @@ const Card = ({ image, category, name, content, tags, link = null }) => {
 }
 
 const projectImages = [
-  '/images/projects/mila.png',
   '/images/projects/forceteller_app.png',
   '/images/projects/event_2.png',
   '/images/projects/event_1.png',
+  '/images/projects/mila.png',
   '/images/projects/angular_blog.png',
   '/images/projects/shopping.png',
   '/images/projects/survey.png',
@@ -67,11 +67,14 @@ const projectImages = [
 ];
 
 const links = [
+  'https://play.google.com/store/apps/details?id=com.un7qi3.forceteller&hl=ko&gl=US',
+  'https://event.forceteller.com/interactive/tiving',
+  'https://sodotsa.forceteller.com/interactive/yeonha',
   'http://lifestory-mila.s3-website.ap-northeast-2.amazonaws.com',
   null,
-  'https://event.forceteller.com/interactive/tiving',
   null,
-  null
+  null,
+  'http://www.powerct.kr/',
 ]
 
 const publicUrl = process.env.PUBLIC_URL;

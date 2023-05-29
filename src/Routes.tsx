@@ -15,7 +15,7 @@ export default React.memo(() => {
   const [isLoading, setIsLoading] = React.useState<boolean>(true);
   useEffect(() => {
     setTimeout(() => setIsLoading(false), 2500);
-  }, [])
+  }, []);
 
   return (
     <BrowserRouter>

@@ -2,7 +2,7 @@
   "translation": {
     "hi": "はじめまして! 私は",
     "intro": "こんにちは！<br/>私のウェブサイトを訪問していただきありがとうございます！<br/>私はFullstafck開発者で、現在はFront end開発者として働いています。<br/>Reactのライブラリを作ってみましたが、フィどバックがあったらお気にせずメール下さったら幸いですね。☺️<br/>今後、より高品質のサービスを作りたいと思います。<br/>どうぞよろしくお願いします〜",
-    "outro": "このページはMi-libraryで作成されています。",
+    "outro": "このページはMi libraryで作成されています。",
     "contact": {
       "name": "名前",
       "subject": "件名",
@@ -45,14 +45,26 @@
       {
         "category": "frontend",
         "name": "Forceteller",
-        "content": "App - Forceteller(英語版)",
+        "content": "App - Forceteller",
         "tags": ["React","ionic"]
       },
       {
         "category": "frontend, backend",
-        "name": "Forceteller Event",
+        "name": "Tiving MBTI test",
         "content": "イベントページ",
         "tags": ["Vue","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Fortune Card Event",
+        "content": "イベントページ",
+        "tags": ["Vue","JAVA"]
+      },
+      {
+        "category": "frontend",
+        "name": "Interactive website",
+        "content": "自己紹介",
+        "tags": ["Vue"]
       },
       {
         "category": "frontend, backend",
@@ -69,13 +81,13 @@
       {
         "category": "frontend, backend",
         "name": "PCT",
-        "content": "会社紹介ウェブサイト",
+        "content": "健康関連調査ウェブサイト",
         "tags": ["JSP","Spring","JAVA"]
       },
       {
         "category": "frontend, backend",
         "name": "PCT",
-        "content": "健康関連調査ウェブサイト",
+        "content": "会社紹介ウェブサイト",
         "tags": ["JSP","Spring","JAVA"]
       }
     ]
