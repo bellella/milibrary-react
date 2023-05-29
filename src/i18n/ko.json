@@ -1,0 +1,83 @@
+{
+  "translation": {
+    "hi": "만나서 반가워요! 저는",
+    "intro": "안녕하세요! 저의 웹사이트에 방문해주셔서 감사해요!<br/>저는 풀스택 개발자이고 현재는 프론트 엔드 개발자로 일하고 있어요.<br/>저는 창작 & 설계 & 새로운 것을 좋아해서 개발자가 되었답니다🤩<br/>취미와 특기는 외국어! 외국문화에 관심이 많아요.<br/>시각적인 쪽에도 관심이 있어서 취미로 3D 모델링도 해보고 있어요.<br/>마크업할 때 편리한 React UI 라이브러리를 만들어봤으니 한번 시간있으시면 사용해보시고 후기나 피드백은 contact 혹은 메일로 남겨주세요☺️<br/>앞으로 더 많은 기술들을 통해서 퀄리티 높은 서비스를 제공할 수 있도록 노력할 생각이에요.<br/>우리에게 행복한 개발길이 열리길~",
+    "outro": "현재 페이지는 Mi-library로 제작되었습니다.",
+    "contact": {
+      "name": "이름",
+      "subject": "제목",
+      "email": "메일",
+      "message": "메세지",
+      "send": "보내기",
+      "messages": {
+        "success": "소중한 의견 감사드립니다!",
+        "duplicate": "이미 메세지를 보내셨네요!",
+        "error": "오류가 있는 것 같아요.."
+      }
+    },
+    "skills": [
+      {
+        "name": "React",
+        "content": "지금 가장 많이 사용하고 있는 라이브러리에요.Ionic 프레임워크를 사용해서 서비스한 경험이 있어요. React UI 라이브러리를 제작중에 있습니다."
+      },
+      {
+        "name": "Angular",
+        "content": "복잡한 프로젝트를 사용할 때 많이 쓰고 있어요. Ionic 프레임워크를 사용해서 서비스한 경험이 있어요."
+      },
+      {
+        "name": "Vue",
+        "content": "간단한 웹페이지 만들 때 사용하고 있어요. Nuxt를 사용해서 웹페이지를 제작한 적이 있어요."
+      },
+      {
+        "name": "JAVA",
+        "content": "처음 개발을 배운 언어에요. Kotlin과 Scala도 조금 사용해 봤습니다."
+      },
+      {
+        "name": "Node.js",
+        "content": "Nest.js를 이용해서 서버 개발을 하고 있어요. TypeORM, Sequelize 둘다 사용해봤어요."
+      },
+      {
+        "name": "HTML/CSS",
+        "content": "재사용 가능한 UI관리에 관심이 많아요. ++ 애니메이션도 정말 좋아합니다!"
+      }
+    ],
+    "projects": [
+      {
+        "category": "frontend",
+        "name": "Forceteller",
+        "content": "앱 Forceteller(영문버전)",
+        "tags": ["React","ionic"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Forceteller Event",
+        "content": "앱 내 이벤트 페이지 제작",
+        "tags": ["Vue","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Angular 개인프로젝트",
+        "content": "블로그",
+        "tags": ["Angular","Node.js"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "1303",
+        "content": "쇼핑몰",
+        "tags": ["JSP","Spring","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "PCT",
+        "content": "회사 소개 웹사이트",
+        "tags": ["JSP","Spring","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "PCT",
+        "content": "건강 관련 설문조사 웹사이트",
+        "tags": ["JSP","Spring","JAVA"]
+      }
+    ]
+  }
+}

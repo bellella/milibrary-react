@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;400&display=swap');
+:root {
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  @media (max-width: 1199px) {
+    font-size: 14px;
+  }
+  @media (max-width: 749px) {
+    font-size: 13px;
+  }
+  @media (max-width: 400px) {
+    font-size: 10px;
+  }
+}
+body {
+  margin: unset;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+a {
+  text-decoration: none;
+  color: unset;
+  display: inline-block;
+}
+
+.fadeIn {
+  animation: 1s fateIn forwards;
+}
+
+@keyframes fateIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

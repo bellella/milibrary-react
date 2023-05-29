@@ -1,0 +1,83 @@
+{
+  "translation": {
+    "hi": "はじめまして! 私は",
+    "intro": "こんにちは！<br/>私のウェブサイトを訪問していただきありがとうございます！<br/>私はFullstafck開発者で、現在はFront end開発者として働いています。<br/>Reactのライブラリを作ってみましたが、フィどバックがあったらお気にせずメール下さったら幸いですね。☺️<br/>今後、より高品質のサービスを作りたいと思います。<br/>どうぞよろしくお願いします〜",
+    "outro": "このページはMi-libraryで作成されています。",
+    "contact": {
+      "name": "名前",
+      "subject": "件名",
+      "email": "メールアドレス",
+      "message": "本文",
+      "send": "送る",
+      "messages": {
+        "success": "メッセージありがとうございます！",
+        "duplicate": "すでにメッセージを送っています。",
+        "error": "メッセージの送信に失敗しました"
+      }
+    },
+    "skills": [
+      {
+        "name": "React",
+        "content": "今最もよく使っているライブラリです。Ionicフレームワークを使ってサービスした経験があります。 React UIライブラリを作成中です。"
+      },
+      {
+        "name": "Angular",
+        "content": "複雑なプロジェクトを使うときはたくさん書いています。 Ionicフレームワークを使ってサービスした経験があります。"
+      },
+      {
+        "name": "Vue",
+        "content": "簡単なWebページを作成するときに使用しています。 Nuxtを使ってWebページを制作したことがあります。"
+      },
+      {
+        "name": "JAVA",
+        "content": "初めて開発を学んだ言語です。 KotlinとScalaも少し試してみました。"
+      },
+      {
+        "name": "Node.js",
+        "content": "Nest.jsを使ってサーバー開発をしています。 TypeORM、Sequelizeの両方を使ってみました"
+      },
+      {
+        "name": "HTML/CSS",
+        "content": "再利用可能なUI管理に興味があります。 ++アニメも大好きです！"
+      }
+    ],
+    "projects": [
+      {
+        "category": "frontend",
+        "name": "Forceteller",
+        "content": "App - Forceteller(英語版)",
+        "tags": ["React","ionic"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Forceteller Event",
+        "content": "イベントページ",
+        "tags": ["Vue","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Angular 個人のウェブサイト",
+        "content": "Angular ブログ",
+        "tags": ["Angular","Node.js"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "1303",
+        "content": "商品販売サイト",
+        "tags": ["JSP","Spring","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "PCT",
+        "content": "会社紹介ウェブサイト",
+        "tags": ["JSP","Spring","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "PCT",
+        "content": "健康関連調査ウェブサイト",
+        "tags": ["JSP","Spring","JAVA"]
+      }
+    ]
+  }
+}

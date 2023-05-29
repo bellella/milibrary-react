@@ -1,0 +1,83 @@
+{
+  "translation": {
+    "hi": "Welcome! I'm",
+    "intro": "hello! Thank you for visiting my website!<br/>I am a full-stack developer and currently working as a front-end developer.<br/>I became a developer because I love creation & design & new things🤩<br/>Hobbies and specialties is a foreign language! I'm interested in foreign cultures.<br/>I'm also interested in the visual aspect, so I'm trying to do 3D modeling as a hobby.<br/>I've created a React UI library that's convenient for markup. Or, please leave an e-mail.",
+    "outro": "This website is made by Mi-library.",
+    "contact": {
+      "name": "name",
+      "subject": "subject",
+      "email": "email",
+      "message": "message",
+      "send": "send",
+      "messages": {
+        "success": "Thank you for the message!",
+        "duplicate": "You've already send message",
+        "error": "Fail to send message"
+      }
+    },
+    "skills": [
+      {
+        "name": "React",
+        "content": "I have experience in servicing using the Ionic framework. We are working on a React UI library."
+      },
+      {
+        "name": "Angular",
+        "content": "I use it a lot when working on complex projects. I have experience in servicing using the Ionic framework."
+      },
+      {
+        "name": "Vue",
+        "content": "I am using it to create a simple web page. I've been using Nuxt to create webpages."
+      },
+      {
+        "name": "JAVA",
+        "content": "It's the first language I learned to develop. I've also tried a bit with Kotlin and Scala."
+      },
+      {
+        "name": "Node.js",
+        "content": "I am developing a server using Nest.js. I've used both TypeORM and Sequelize."
+      },
+      {
+        "name": "HTML/CSS",
+        "content": "I am very interested in reusable UI management. ++ Love the animations too!"
+      }
+    ],
+    "projects": [
+      {
+        "category": "frontend",
+        "name": "Forceteller",
+        "content": "App - Forceteller(English version)",
+        "tags": ["React","ionic"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Forceteller Event",
+        "content": "Event pages",
+        "tags": ["Vue","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Angular blog",
+        "content": "Personal blog made with Angular",
+        "tags": ["Angular","Node.js"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "1303",
+        "content": "Shopping mall",
+        "tags": ["JSP","Spring","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "PCT",
+        "content": "Business website",
+        "tags": ["JSP","Spring","JAVA"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "PCT",
+        "content": "Survey website",
+        "tags": ["JSP","Spring","JAVA"]
+      }
+    ]
+  }
+}
