@@ -2,7 +2,7 @@ import { Div } from '@milibrary/mi-style';
 import Footer from 'components/Footer';
 import Navbar from 'components/Navbar';
 import PageLoading from 'components/PageLoading';
-import Home from 'pages/Home';
+import Home from 'pages/home/Home';
 import Design from 'pages/design/Design';
 import Example1 from 'pages/examples/Example1';
 import Example2 from 'pages/examples/Example2';

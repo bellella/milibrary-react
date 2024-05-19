@@ -59,6 +59,7 @@ const Navbar: React.FC = () => {
             <Flex color="onPrimary">
               <NavItem link="/" name="Home" />
               <NavItem link="/milibrary" name="Mi Library" />
+              <NavItem link="/design" name="Design" />
               <NavItem link="/example1" name="example1" />
               <NavItem link="/example2" name="example2" />
               <NavItem link="/example3" name="example3" />

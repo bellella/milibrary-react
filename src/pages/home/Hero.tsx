@@ -33,8 +33,8 @@ const Hero: React.FC = () => {
           </Div>
           <Div position="relative">
             <Font set="p2" color="accent" fontWeight={700}>{t('hi')}</Font>
-            <Font set="h1">Mina Choi,<br />Frontend<br />Alchemist</Font>
-            <Font set="h5" mt={1} fontWeight={500}>based in Korea.</Font>
+            <Font set="h1">Mina Choi,<br />Full-stack<br />Developer</Font>
+            <Font set="h5" mt={1} fontWeight={500}>based in Canada.</Font>
             <Button set="accent" mt={5} onClick={() => navigate('/milibrary')}>Mi library 💜</Button>
           </Div>
         </Flex>

@@ -23,7 +23,7 @@ const AboutMe: React.FC = () => {
           <div>
             <Font set="h3" fontWeight={800}>About Me</Font>
             <Flex gap={1.5}>
-              <Span set="chips">Frontend</Span><Span set="chips">Backend</Span><Span set="chips">3개국어</Span><Span set="chips">ENFJ</Span>
+              <Span set="chips">Frontend</Span><Span set="chips">Backend</Span><Span set="chips">DevOps</Span><Span set="chips">Multilingual</Span><Span set="chips">ENFJ</Span>
             </Flex>
             <Font set="p3" mt={7} fontWeight={400} dangerouslySetInnerHTML={{ __html: t('intro') }}>
             </Font>
