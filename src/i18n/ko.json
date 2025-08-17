@@ -43,6 +43,24 @@
     ],
     "projects": [
       {
+        "category": "프론트엔드, 백엔드",
+        "name": "AI Resume Builder",
+        "content": "이력서를 생성하고 AI 검수 기능 제공",
+        "tags": ["Next.js", "NestJS", "MongoDB", "OpenAI"]
+      },
+      {
+        "category": "프론트엔드, 백엔드",
+        "name": "3D Guestbook",
+        "content": "메시지를 남기면 3D 레터가 생성됨",
+        "tags": ["Next.js", "MongoDB", "Three.js"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Chat with AI character",
+        "content": "Chat website using OpenAI",
+        "tags": ["Next.js", "OpenAI", "React", "MongoDB", "Prisma"]
+      },
+      {
         "category": "frontend",
         "name": "Forceteller",
         "content": "앱 Forceteller",
@@ -64,7 +82,7 @@
         "category": "frontend",
         "name": "Interactive website",
         "content": "자기소개 웹사이트",
-        "tags": ["Vue"]
+        "tags": ["Vue", "Animation", "Horizontal scroll", "Parallax effect"]
       },
       {
         "category": "frontend, backend",

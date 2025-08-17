@@ -43,6 +43,24 @@
     ],
     "projects": [
       {
+        "category": "frontend, backend",
+        "name": "AI Resume Builder",
+        "content": "履歴書を生成し、AI でレビュー可能",
+        "tags": ["Next.js", "NestJS", "MongoDB", "OpenAI"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "3D Guestbook",
+        "content": "メッセージを残すと 3D レターを生成",
+        "tags": ["Next.js", "MongoDB", "Three.js"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Chat with AI character",
+        "content": "OpenAI を使用",
+        "tags": ["Next.js", "OpenAI", "React", "MongoDB", "Prisma"]
+      },
+      {
         "category": "frontend",
         "name": "Forceteller",
         "content": "App - Forceteller",
@@ -64,7 +82,7 @@
         "category": "frontend",
         "name": "Interactive website",
         "content": "自己紹介",
-        "tags": ["Vue"]
+        "tags": ["Vue", "Animation", "Horizontal scroll", "Parallax effect"]
       },
       {
         "category": "frontend, backend",

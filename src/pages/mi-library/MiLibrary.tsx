@@ -50,6 +50,7 @@ const MiLibrary: React.FC = () => {
               <Font set="h1" textAlign="center">What is Mi Library</Font>
             </Flex>
             <Font set="p1" textAlign="center">Efficient UI Library</Font>
+            <Button set="primary" mt={4} onClick={() => window.open("https://www.npmjs.com/package/@milibrary/mi-style")}>Go to NPM</Button>
           </Flex>
         </Container>
       </Section>

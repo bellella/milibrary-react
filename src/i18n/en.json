@@ -43,6 +43,24 @@
     ],
     "projects": [
       {
+        "category": "frontend, backend",
+        "name": "AI Resume Builder",
+        "content": "Generate resumes with AI",
+        "tags": ["Next.js", "NestJS", "MongoDB", "OpenAI"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "3D Guestbook",
+        "content": "Leave a message to generate a 3D letter",
+        "tags": ["Next.js", "MongoDB", "Three.js"]
+      },
+      {
+        "category": "frontend, backend",
+        "name": "Chat with AI character",
+        "content": "Chat website using OpenAI",
+        "tags": ["Next.js", "OpenAI", "React", "MongoDB", "Prisma"]
+      },
+      {
         "category": "frontend",
         "name": "Forceteller",
         "content": "App - Forceteller",
@@ -64,7 +82,7 @@
         "category": "frontend",
         "name": "Interactive website",
         "content": "Introduction website",
-        "tags": ["Vue"]
+        "tags": ["Vue", "Animation", "Horizontal scroll", "Parallax effect"]
       },
       {
         "category": "frontend, backend",
