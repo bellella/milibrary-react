@@ -6,7 +6,7 @@ import Prism from 'prismjs';
 import 'prismjs/themes/prism.css';
 import { AnimationObserver, AnimationTarget, Dragger, MiModal, MiModalRefInterface } from '@milibrary/react-interaction'
 import 'prismjs/themes/prism-okaidia.css';
-import { Loading, Modal, Toast } from '@milibrary/core';
+import { Loading, Toast } from '@milibrary/core';
 import { Container } from 'components/mis/Container';
 import { Section } from 'components/mis/Section';
 import useAnimateShimmer from 'hooks/useAnimateShimmer';

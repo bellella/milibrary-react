@@ -1,7 +1,7 @@
 import { Div, Grid, Font, Span } from '@milibrary/mi-style';
-import React, { Children } from 'react';
+import React from 'react';
 import { Container } from './mis/Container';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import useThemePicker from 'hooks/useThemePicker';
 import { useTranslation } from 'react-i18next';
 

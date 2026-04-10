@@ -1,11 +1,9 @@
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Div, Flex, Font, Img, Grid, Button, Span, Input } from '@milibrary/mi-style';
+import { Div, Flex, Font, Img, Grid, Button, Input } from '@milibrary/mi-style';
 
-import { Dragger, MiModal, MiModalInterface, MiModalRefInterface } from '@milibrary/react-interaction'
 import { Container } from 'components/mis/Container';
-import { Section } from 'components/mis/Section';
 
 const publicUrl = process.env.PUBLIC_URL;
 
@@ -19,17 +17,7 @@ const Avatar = () => (
   </Flex>
 )
 
-const testUrl = 'https://stylenanda.com/web/product/medium/201904/324638da564d0c825510496b348da4d5.jpg'
 const Example1: React.FC = () => {
-  const modalRef = React.useRef<MiModalRefInterface>(null);
-  const [s, ss] = React.useState<boolean>(false);
-  const open = () => {
-    ss(true);
-    modalRef.current?.present();
-  }
-  const close = () => {
-    modalRef.current?.dismiss();
-  }
   return (
     <>
       <Container padding={['8rem', 0]} width="clamp(0px, 100%, 800px)">

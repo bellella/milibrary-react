@@ -5,9 +5,7 @@ import { Div, Flex, Font, Img, Grid, Button, Span } from '@milibrary/mi-style';
 
 import { Dragger } from '@milibrary/react-interaction'
 import { Container } from 'components/mis/Container';
-import { Section } from 'components/mis/Section';
 
-const publicUrl = process.env.PUBLIC_URL;
 const Example1: React.FC = () => {
   return (
     <>

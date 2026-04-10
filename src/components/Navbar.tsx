@@ -1,8 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
-import { Div, Flex, Font, Img, Grid, Button, useMiTheme } from '@milibrary/mi-style';
-import { themes } from '../theme';
+import { Div, Flex, Font, Button } from '@milibrary/mi-style';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Container } from './mis/Container';

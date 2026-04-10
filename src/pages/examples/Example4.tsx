@@ -1,11 +1,8 @@
-import React, { FormEvent } from 'react';
-import { Div, Flex, Font, Img, Grid, Button, Span, Input } from '@milibrary/mi-style';
+import React from 'react';
+import { Div, Flex, Font, Img, Button, Input } from '@milibrary/mi-style';
 
-import axios from 'axios';
 import { Container } from 'components/mis/Container';
 import { Section } from 'components/mis/Section';
-
-const publicUrl = process.env.PUBLIC_URL;
 
 interface AvatarInterface {
   message: string;

@@ -9,7 +9,7 @@ const useAnimateShimmer = () => {
   const refs = React.useRef<HTMLElement[]>([]);
   const chkk = React.useRef<boolean>(true);
 
-  const moveForever = (ani: AnimateInterface, x: number = 0, y: number = 0, scale = 1) => {
+  const moveForever = React.useCallback((ani: AnimateInterface, x: number = 0, y: number = 0, scale = 1) => {
     const nextX = Math.max(100, Math.min(((Math.random() * 500 - 250)) + x, innerWidth));
     const nextY = Math.max(100, Math.min(((Math.random() * 500 - 250)) + y, innerHeight));
     const newScale = Math.random() * 3.5 + 0.5;
@@ -24,7 +24,7 @@ const useAnimateShimmer = () => {
           moveForever(ani, nextX, nextY, newScale);
         }
       });
-  }
+  }, []);
 
   React.useEffect(() => {
     const anis = [];
@@ -37,7 +37,7 @@ const useAnimateShimmer = () => {
           ;
       })
     }
-  }, [refs.current]);
+  }, [moveForever]);
 
   useEffect(() => () => {
     chkk.current = false;

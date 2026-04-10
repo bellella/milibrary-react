@@ -1,15 +1,8 @@
-import { Animate } from '@milibrary/core';
 import { Grid, Div, Font, Flex, Span } from '@milibrary/mi-style';
-import { Animater, AnimationObserver, AnimationTarget } from '@milibrary/react-interaction';
 import { Container } from 'components/mis/Container';
 import { Section } from 'components/mis/Section';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-
-const fromLeft = Animate().setKeyframes([{ transform: 'translateX(-50%)', opacity: 0 },
-{ opacity: 0.1 }, { transform: 'translateY(0)', opacity: 1 }])
-  .setDuration(700).setFill('forwards').setEasing('cubic-bezier(0.250, 0.460, 0.450, 0.940)');
-const move = Animate().setKeyframes([{ transform: 'translateX(-50%)' }, { transform: 'translateX(100%)' }]).setDuration(50000)
 
 const AboutMe: React.FC = () => {
   const { t } = useTranslation();
